@@ -5,6 +5,7 @@ subtitle:
 date:       2019-05-18
 author:     DY
 header-img: img/post-bg-github-cup.jpg
+catalog: false
 tags:
     - 生活
 ---
