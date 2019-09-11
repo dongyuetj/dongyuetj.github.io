@@ -13,6 +13,8 @@ layout: default
         background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
     }
 
+	{% include mathjax.html %}
+
     {% if page.header-mask %}
     header.intro-header .header-mask{
         width: 100%;
