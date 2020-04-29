@@ -104,7 +104,7 @@ clean:
 
 打开航旅纵横
 
-![flight9148](\img\flignth9148.jpg)
+![flight9148](\img\flight9148.jpg)
 
 再看一下现在的时间大概11点30左右，确认就是这架航班了。
 
@@ -113,7 +113,7 @@ clean:
 
 ![adsb_message4843](\img\adsb_message4843.jpg)
 
-![flight4843](\img\flignth4843.jpg)
+![flight4843](\img\flight4843.jpg)
 
 ![adsb_message2822](\img\adsb_message2822.jpg)
 
