@@ -4,7 +4,7 @@ mathjax:    true
 title:      用rtl-sdr接收ADS-B信号
 date:       2020-04-29
 author:     DY
-header-img: img/lebin.jpg
+header-img: img/bg.jpg
 catalog: false
 tags:
     - 技术
