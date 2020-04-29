@@ -9,9 +9,9 @@ catalog: false
 tags:
     - 技术
 ---
-因为工作中要对ADS-B信号进行软解调，于是买了一块RTL28xx电视棒接收ADS-B信号。
+因为工作中要对ADS-B信号进行软解调，于是买了一块rtl28xx电视棒接收ADS-B信号。
 
-首先安装rtl-sdr,具体的安装过程参照Ranous(<https://ranous.wordpress.com/rtl-sdr4linux/)>给出的教程。
+首先安装rtl-sdr，具体的安装过程参照Ranous(<https://ranous.wordpress.com/rtl-sdr4linux/)>给出的教程。
 
 ```bash
 git clone git://git.osmocom.org/rtl-sdr.git
@@ -25,7 +25,7 @@ sudo ldconfig
 sudo cp ../rtl-sdr.rules /etc/udev/rules.d/
 ```
 
-安装好rtl-sdr之后，需要增加黑名单（因为系统默认为RTL28xx为电视棒）。进入路径/etc/modprobe.d，然后进入超级用户权限，
+安装好rtl-sdr之后，需要增加黑名单（因为系统默认为RTL28xx为电视棒）。进入路径 /etc/modprobe.d，获得超级用户权限，
 
 ```bash
 touch blacklist-rtl.conf
@@ -43,7 +43,7 @@ rtl_test -t
 
 ![rtl_test](\img\rtl_test.jpg)
 
-运行结果会出现PLL not locked！和 No E4000 tuner found, aborting的提示字样。这是正常的，不用理会。
+运行结果会出现PLL not locked！和 No E4000 tuner found, aborting的提示字样。这是正常的，不用担心。
 
 接着，从github上下载antirez(<https://github.com/antirez/dump1090>)的代码。
 
@@ -56,7 +56,7 @@ make
 
 应该就可以就接收到信号了。
 
-但是，这个代码在我的台式机上编译报错。因为makefile指向的库文件找不到（但是我感觉makefile的设置没有问题），无奈之下，上网找解决方案。通过把库的绝对路径直接写进makefile里才顺利编译。
+但是，这个代码在我的台式机上编译报错。因为Makefile指向的库文件找不到（但是我感觉Makefile的设置没有问题），无奈之下，上网找解决方案。通过把库的绝对路径直接写进makefile里才顺利编译。
 
 ```
 CFLAGS?=-O2 -g -Wall -W $(shell pkg-config --cflags librtlsdr)
@@ -104,17 +104,17 @@ clean:
 
 打开航旅纵横
 
-![flignth9148](\img\flignth9148.jpg)
+![flight9148](\img\flignth9148.jpg)
 
-再看一下现在的时间大概11点半左右，可确认就是这架航班了。
+再看一下现在的时间大概11点30左右，确认就是这架航班了。
 
 其它结果：
 
 
 ![adsb_message4843](\img\adsb_message4843.jpg)
 
-![flignth4843](\img\flignth4843.jpg)
+![flight4843](\img\flignth4843.jpg)
 
 ![adsb_message2822](\img\adsb_message2822.jpg)
 
-由于我没有校正rtl28xxu的频偏，增益模式也是固定的，不是agc模式，因此能收到17675海拔高度的信号灵敏度就还算可以了。
+由于我没有校正 rtl28xxu 的频偏，增益模式也是固定的，不是agc模式，因此能收到17675米海拔高度的信号，灵敏度就还算可以了。
