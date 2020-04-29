@@ -113,8 +113,11 @@ clean:
 
 ![adsb_message4843](\img\adsb_message4843.jpg)
 
+
 ![flight4843](\img\flight4843.jpg)
 
+
 ![adsb_message2822](\img\adsb_message2822.jpg)
+
 
 由于我没有校正 rtl28xxu 的频偏，增益模式也是固定的，不是agc模式，因此能收到17675米海拔高度的信号，灵敏度就还算可以了。
