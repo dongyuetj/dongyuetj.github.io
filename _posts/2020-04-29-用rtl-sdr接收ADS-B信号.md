@@ -7,7 +7,7 @@ author:     DY
 header-img: img/bg.jpg
 catalog: false
 tags:
-    - 技术
+    - SDR
 ---
 因为工作中要对ADS-B信号进行软解调，于是买了一块rtl28xx电视棒接收ADS-B信号。
 
@@ -120,4 +120,4 @@ clean:
 ![adsb_message2822](\img\adsb_message2822.jpg)
 
 
-由于我没有校正 rtl28xxu 的频偏，增益模式也是固定的，不是agc模式，因此能在房间里用一颗普通的烂天线收到17675米海拔高度的信号，灵敏度就还算可以了。
+在房间里用一颗普通的烂天线收到 17675 米海拔高度的信号。另外，还可以对 rtl28xxu 的频偏进行校正，将增益模式设为 AGC 模式或者提高接收增益，可以进一步提高接收性能。
