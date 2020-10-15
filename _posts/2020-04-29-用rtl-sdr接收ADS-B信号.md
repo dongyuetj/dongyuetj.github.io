@@ -21,6 +21,7 @@ cd build
 cmake ../ -DINSTALL_UDEV_RULES=ON
 make
 sudo make install
+
 sudo ldconfig
 sudo cp ../rtl-sdr.rules /etc/udev/rules.d/
 ```
