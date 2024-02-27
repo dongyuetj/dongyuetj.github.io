@@ -13,4 +13,4 @@ tags:
 Hello, blog.
 ```
 
-![cup](../assets/images/2019/github_cup.jpg)
+![cup]({{ site.url }}{{ site.baseurl }}/assets/images/2019/github_cup.jpg)
