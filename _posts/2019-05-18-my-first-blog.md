@@ -13,4 +13,4 @@ tags:
 Hello, blog.
 ```
 
-![cup]([github_cup.jpg](https://github.com/dongyuetj/dongyuetj.github.io/blob/master/github_cup.jpg)https://github.com/dongyuetj/dongyuetj.github.io/blob/master/github_cup.jpg)
+![cup](https://github.com/dongyuetj/dongyuetj.github.io/blob/master/github_cup.jpg)https://github.com/dongyuetj/dongyuetj.github.io/blob/master/github_cup.jpg)
