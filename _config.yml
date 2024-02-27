@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   dongyue's personal blog.
 twitter_username: dongyuetj
 github_username: dongyuetj
-minimal_mistakes_skin: neon
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
