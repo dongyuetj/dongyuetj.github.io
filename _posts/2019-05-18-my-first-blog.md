@@ -12,4 +12,4 @@ tags:
 ```
 Hello, blog.
 ```
-![cup](images\github_cup.jpg)
+![cup]("images\github_cup.jpg")
