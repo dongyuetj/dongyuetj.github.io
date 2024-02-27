@@ -12,4 +12,5 @@ tags:
 ```
 Hello, blog.
 ```
-![cup]("images\github_cup.jpg")
+
+![cup](github_cup.jpg)
