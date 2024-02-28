@@ -1,13 +1,10 @@
 ---
-layout:     post
-mathjax:    true
-title:      用rtl-sdr接收ADS-B信号
-date:       2020-04-29
-author:     DY
-header-img: img/bg.jpg
-catalog: false
+title: "用rtl-sdr接收ADS-B信号"
+date: 2020-04-30T15:34:30-04:00
+categories:
+  - Blog
 tags:
-    - SDR
+  - SDR
 ---
 因为工作中要对ADS-B信号进行软解调，于是买了一块rtl28xx电视棒接收ADS-B信号。
 
@@ -42,7 +39,7 @@ rtl_test -t
 运行结果如下：
 
 
-![rtl_test](\img\rtl_test.jpg)
+![rtl_test]({{ site.url }}{{ site.baseurl }}\assets\images\2020\rtl_test.jpg)
 
 运行结果会出现PLL not locked！和 No E4000 tuner found, aborting的提示字样。这是正常的，不用担心。
 
@@ -101,24 +98,24 @@ clean:
 
 刚运行程序，就收到了一条消息：
 
-![adsb_message9148](\img\adsb_message9148.jpg)
+![adsb_message9148]({{ site.url }}{{ site.baseurl }}\assets\images\2020\adsb_message9148.jpg)
 
 打开航旅纵横
 
-![flight9148](\img\flight9148.jpg)
+![flight9148]({{ site.url }}{{ site.baseurl }}\assets\images\2020\flight9148.jpg)
 
 再看一下现在的时间大概11点30左右，确认就是这架航班了。
 
 其它结果：
 
 
-![adsb_message4843](\img\adsb_message4843.jpg)
+![adsb_message4843]({{ site.url }}{{ site.baseurl }}\assets\images\2020\adsb_message4843.jpg)
 
 
-![flight4843](\img\flight4843.jpg)
+![flight4843]({{ site.url }}{{ site.baseurl }}\assets\images\2020\flight4843.jpg)
 
 
-![adsb_message2822](\img\adsb_message2822.jpg)
+![adsb_message2822]({{ site.url }}{{ site.baseurl }}\assets\images\2020\adsb_message2822.jpg)
 
 
 在房间里用一颗普通的烂天线收到 17675 米海拔高度的信号。另外，还可以对 rtl28xxu 的频偏进行校正，将增益模式设为 AGC 模式或者提高接收增益，可以进一步提高接收性能。
