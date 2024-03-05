@@ -1,12 +1,10 @@
 ---
-layout:     post
-title:      Linux Tips
-subtitle:   
-date:       2023-09-26
-author:     DY
-catalog: false
+title: "Linux Tips"
+date: 2023-09-26:34:30-04:00
+categories:
+  - Blog
 tags:
-    - 技术
+  - Linux
 ---
 1. du -sh *，显示文件大小
 2. mii-tool -v，显示网卡工作状态

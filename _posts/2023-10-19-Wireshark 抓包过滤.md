@@ -1,13 +1,10 @@
 ---
-layout:     post
-title:      Wireshark抓包的过滤条件设置 
-subtitle:   
-date:       2023-10-19
-author:     DY
-catalog: false
+title: "Wireshark抓包过滤"
+date: 2023-10-19T15:34:30-04:00
+categories:
+  - Blog
 tags:
-    - 技术
+  - Wireshark
 ---
-
-![wireshark1](\img\wireshark-screen-shot-1.jpg)
-![wireshark2](\img\wireshark-screen-shot-2.jpg)
+![wireshark1]({{ site.url }}{{ site.baseurl }}\assets\images\2023\wireshark-screen-shot-1.jpg)
+![wireshark2]({{ site.url }}{{ site.baseurl }}\assets\images\2023\wireshark-screen-shot-2.jpg)
