@@ -1,6 +1,6 @@
 ---
 title: "Linux Tips"
-date: 2023-09-26:34:30-04:00
+date: 2023-09-27T15:34:30-04:00
 categories:
   - Blog
 tags:
