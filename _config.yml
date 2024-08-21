@@ -1,16 +1,16 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-url:            "https://chesterhow.github.io"
+title:          董悦的博客
+description:    "My reading blog"
+url:            "dongyuetj.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         dong yue
+  url:          https://dong.yue
+  email:        dongyuetj@gmail.com
 
 # Build settings
 markdown:       kramdown
