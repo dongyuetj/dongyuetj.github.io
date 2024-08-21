@@ -40,4 +40,3 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 disqus:         jekyll-tale
 
 encoding: utf-8
-excerpt_length: 100
